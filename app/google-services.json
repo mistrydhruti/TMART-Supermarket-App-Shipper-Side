@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "874458505649",
+    "firebase_url": "https://supermart-b6e32.firebaseio.com",
+    "project_id": "supermart-b6e32",
+    "storage_bucket": "supermart-b6e32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874458505649:android:cbd7054b2efacd92449d90",
+        "android_client_info": {
+          "package_name": "com.example.qrcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874458505649-qk4saj4cctv5bc6dmhhokopmp76bd034.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qrcodescanner",
+            "certificate_hash": "f2f6b1ed9ecaf226c0c42b36058fdc90a7fd127c"
+          }
+        },
+        {
+          "client_id": "874458505649-lkocqd3b16076ih9p7qhjbm6gfh2o7ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCcTfDfcwYy4CscBsr0qSHjXdoKUQN4bY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874458505649-lkocqd3b16076ih9p7qhjbm6gfh2o7ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

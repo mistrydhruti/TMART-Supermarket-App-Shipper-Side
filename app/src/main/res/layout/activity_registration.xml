@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/teal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/delboy_photo"
+            android:layout_width="0dp"
+            android:layout_margin="4dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="9"
+        android:orientation="vertical"
+        android:background="@drawable/cornerradius"
+        android:layout_weight="10">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <EditText
+            android:id="@+id/delboy_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimary"
+            android:cursorVisible="true"
+            android:fontFamily="@font/arial"
+            android:hint="Name"
+            android:textColorHint="@color/teal"
+            android:inputType="textPersonName"
+            android:letterSpacing="0.05"
+            android:maxLength="20"
+            android:paddingLeft="8dp"
+            android:textColor="@color/teal"
+            android:textCursorDrawable="@drawable/new_cursor"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <EditText
+            android:id="@+id/delboy_phone"
+            android:fontFamily="@font/arial"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColorHint="@color/teal"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/new_cursor"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:textColor="@color/teal"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:letterSpacing="0.05"
+            android:maxLength="10"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <EditText
+            android:id="@+id/delboy_email"
+            android:hint="Email ID "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="@font/arial"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/new_cursor"
+            android:layout_gravity="center"
+            android:textColor="@color/teal"
+            android:textColorHint="@color/teal"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/colorPrimary"
+            android:letterSpacing="0.05"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <EditText
+            android:id="@+id/delboy_license"
+            android:hint="Driving license Number"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="@font/arial"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/new_cursor"
+            android:layout_gravity="center"
+            android:textColor="@color/teal"
+            android:textColorHint="@color/teal"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLength="13"
+            android:backgroundTint="@color/colorPrimary"
+            android:letterSpacing="0.05"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <EditText
+            android:id="@+id/delboy_adhar"
+            android:hint="Aadhar Card Number"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="@font/arial"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@drawable/new_cursor"
+            android:layout_gravity="center"
+            android:textColor="@color/teal"
+            android:textColorHint="@color/teal"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLength="12"
+            android:backgroundTint="@color/colorPrimary"
+            android:letterSpacing="0.05"
+            android:paddingLeft="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/delboy_location"
+                android:text="Prefered Location :"
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/arial"
+                android:layout_weight="2"
+                android:inputType="number"
+                android:letterSpacing="0.05"
+                android:paddingLeft="8dp"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:layout_weight="2"
+                android:id="@+id/delboy_spinner"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"></View>
+
+       <!-- <RadioGroup
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:id="@+id/delboy_time"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Full Time"
+                android:fontFamily="@font/arial"
+                android:paddingLeft="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Part Time"
+                android:fontFamily="@font/arial"
+                android:paddingLeft="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+        </RadioGroup>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:weightSum="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/amiko"
+                android:layout_gravity="center"
+                android:id="@+id/submit_btn"
+                android:background="@drawable/buttons"
+                android:text="Submit"
+                android:textColor="@color/water"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

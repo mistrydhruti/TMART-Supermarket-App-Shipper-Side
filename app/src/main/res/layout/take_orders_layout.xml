@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+    <LinearLayout
+        android:weightSum="8"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:fontFamily="@font/arial"
+                android:layout_weight="2"
+                android:text="Name"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:fontFamily="@font/arial"
+                android:text=":"
+                android:textStyle="bold"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_weight="2.7"
+                android:text=""
+                android:fontFamily="@font/arial"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:fontFamily="@font/arial"
+                android:layout_weight="2"
+                android:text="Order ID "
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text=":"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/orderid"
+                android:layout_width="0dp"
+                android:layout_weight="2.7"
+                android:text=""
+                android:fontFamily="@font/arial"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="2.5"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Deliver To "
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:fontFamily="@font/arial"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|top"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text=":"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center|top"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_weight="2.7"
+                android:fontFamily="@font/arial"
+                android:text=""
+                android:scrollbars="vertical"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|top"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:fontFamily="@font/arial"
+                android:layout_weight="2"
+                android:text="Payment method "
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text=":"
+                android:textStyle="bold"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arial"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/payment"
+                android:layout_width="0dp"
+                android:layout_weight="2.7"
+                android:fontFamily="@font/arial"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Delivery Time "
+                android:fontFamily="@font/arial"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor="@color/teal"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text=":"
+                android:textStyle="bold"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/arial"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/expectedtime"
+                android:layout_width="0dp"
+                android:layout_weight="2.7"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/arial"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1.5"
+            android:weightSum="5"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <Button
+                android:id="@+id/orderdelivered"
+                android:layout_width="0dp"
+                android:background="@drawable/linearlayout_design"
+                android:layout_weight="3"
+                android:textSize="16sp"
+                android:fontFamily="@font/amiko"
+                android:text="Delivered"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/report"
+                android:layout_width="0dp"
+                android:fontFamily="@font/amiko"
+                android:layout_weight="1.5"
+                android:text="Report"
+                android:textSize="16sp"
+                android:textColor="#e50000"
+                android:gravity="center"
+                android:background="@drawable/red_border"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

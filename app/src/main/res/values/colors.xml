@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2874A6</color>
+    <color name="lightpink">#AB154C</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#2874A6</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="admin">#7343A9</color>
+    <color name="green">#4cc552</color>
+    <color name="teal">#008080</color>
+    <color name="water">#ebf4fa</color>
+    <color name="eggblue">#bdedff</color>
+    <color name="blue">#0020c2</color>
+    <color name="denimblue">#79baec</color>
+    <color name="lightgrey">#f6f6f6</color>
+    <color name="platinum">#e5e4e2</color>
+    <color name="skyblue">#6698ff</color>
+    <color name="bluewhale">#342d7e</color>
+
+</resources>
